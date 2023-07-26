@@ -1,0 +1,1811 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- AlpineJS -->
+    <script
+      defer
+      src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"
+    ></script>
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+
+    <!-- PAGE TITLE -->
+    <title>News and Events | Bright</title>
+    <meta
+      name="description"
+      content="Stay connected with Bright Preschool & Elementary through our Parents Portal - your go-to source for school news, events, and updates."
+    />
+  </head>
+
+  <body>
+    <!-- Site header and hero section-->
+    <div class="bg-gradient-to-b from-white via-purple-25 to-white">
+      <!-- Top header contact information and navbar -->
+      <header>
+        <div class="hidden px-4 lg:block sm:px-6">
+          <!-- Container -->
+          <div
+            class="relative max-w-screen-xl py-5 mx-auto border-b border-purple-200/30"
+          >
+            <div class="flex items-center justify-between">
+              <!-- Site branding -->
+              <div class="flex-grow-0 flex-shrink-0 w-60">
+                <a href="index.html">
+                  <img
+                    src="./images/bright-logo.png"
+                    alt="Bright"
+                    class="h-auto"
+                  />
+                </a>
+              </div>
+
+              <!-- Contact information -->
+              <ul class="flex ml-8 lg:space-x-6 xl:space-x-16">
+                <!-- Address -->
+                <li class="flex flex-shrink max-w-xs">
+                  <div>
+                    <span
+                      class="flex items-center justify-center bg-yellow-400 rounded-2xl w-11 h-11"
+                    >
+                      <!-- TablerIcon name: map-pin -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="w-6 h-6 text-purple-700"
+                        width="44"
+                        height="44"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <circle cx="12" cy="11" r="3" />
+                        <path
+                          d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="flex-1 mt-0 ml-3 xl:ml-4">
+                    <h5
+                      class="flex items-center text-base font-semibold text-purple-900"
+                    >
+                      Address
+                    </h5>
+                    <p
+                      class="mt-0.5 text-sm text-purple-800 leading-relaxed text-opacity-90"
+                    >
+                      958 McKinley Avenue Littleton, CO 80120
+                    </p>
+                  </div>
+                </li>
+
+                <!-- Email -->
+                <li class="flex flex-shrink-0">
+                  <div>
+                    <span
+                      class="flex items-center justify-center bg-purple-200 rounded-2xl w-11 h-11"
+                    >
+                      <!-- TablerIcon name: mail -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="w-6 h-6 text-purple-700"
+                        width="44"
+                        height="44"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <rect x="3" y="5" width="18" height="14" rx="2" />
+                        <polyline points="3 7 12 13 21 7" />
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="flex-1 ml-3 xl:ml-4">
+                    <h5
+                      class="flex items-center text-base font-semibold text-purple-900"
+                    >
+                      Email
+                    </h5>
+                    <p
+                      class="mt-0.5 text-sm text-purple-800 leading-relaxed text-opacity-90"
+                    >
+                      hello@bright.com
+                    </p>
+                  </div>
+                </li>
+
+                <!-- Phone number -->
+                <li class="flex flex-shrink-0">
+                  <div>
+                    <span
+                      class="flex items-center justify-center rounded-2xl w-11 h-11 bg-rose-200"
+                    >
+                      <!-- TablerIcon name: phone -->
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="w-6 h-6 text-purple-700"
+                        width="44"
+                        height="44"
+                        viewBox="0 0 24 24"
+                        stroke-width="1.5"
+                        stroke="currentColor"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                          d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="flex-1 ml-3 xl:ml-4">
+                    <h5
+                      class="flex items-center text-base font-semibold text-purple-900"
+                    >
+                      Phone
+                    </h5>
+                    <p
+                      class="mt-0.5 text-sm text-purple-800 leading-relaxed text-opacity-90"
+                    >
+                      +1-202-555-0132
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- 
+          This component uses Alpine.js for both the programs dropdown and the mobile navigation menu. If you're
+          not familiar with Alpine you can check out their documentation 
+          here: https://alpinejs.dev/start-here
+        -->
+        <div class="px-4 sm:px-6">
+          <nav class="flex items-center max-w-screen-xl pt-5 mx-auto">
+            <div class="flex items-center justify-between w-full">
+              <!-- Main navigation menu for large screens -->
+              <div
+                class="items-center justify-between hidden lg:flex md:space-x-6 lg:space-x-10"
+              >
+                <a href="index.html">
+                  <div class="relative p-0.5 group">
+                    <span
+                      class="relative z-10 text-lg font-medium text-purple-700 duration-300 ease-in-out group-hover:text-purple-600"
+                      >Home</span
+                    >
+                    <span
+                      class="absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-yellow-400 rounded-lg -left-1 -right-1 group-hover:scale-x-100"
+                    ></span>
+                  </div>
+                </a>
+                <a href="about-us.html">
+                  <div class="relative p-0.5 group">
+                    <span
+                      class="relative z-10 text-lg font-medium text-purple-700 duration-300 ease-in-out group-hover:text-purple-600"
+                      >About</span
+                    >
+                    <span
+                      class="absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-yellow-400 rounded-lg -left-1 -right-1 group-hover:scale-x-100"
+                    ></span>
+                  </div>
+                </a>
+
+                <!-- Programs dropdown container -->
+                <div class="relative" x-data="{ open: false }">
+                  <!-- Programs dropdown button -->
+                  <button
+                    type="button"
+                    aria-expanded="false"
+                    @click="open = !open"
+                  >
+                    <div class="relative p-0.5 group">
+                      <span
+                        class="relative z-10 flex items-center text-lg font-medium duration-300 ease-in-out group-hover:text-purple-600"
+                        :class="open ? 'text-purple-600' : 'text-purple-700'"
+                      >
+                        Programs
+
+                        <!-- Heroicon name: solid/chevron-down -->
+                        <!-- Toggle class 'rotate-180' on dropdown open and close -->
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 20 20"
+                          fill="currentColor"
+                          class="ml-1.5 w-5 h-5 transform duration-300 ease-in-out"
+                          :class="{'rotate-180': open}"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                            clip-rule="evenodd"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                  </button>
+
+                  <!-- Programs dropdown -->
+                  <div
+                    class="absolute z-20 w-screen max-w-xs p-4 mt-3 -translate-x-1/2 bg-white border shadow-lg left-1/2 border-gray-50 rounded-2xl"
+                    x-show="open"
+                    x-transition:enter="transition ease-out duration-300"
+                    x-transition:enter-start="opacity-0 -translate-y-5"
+                    x-transition:enter-end="opacity-100 translate-y-0"
+                    x-transition:leave="transition ease-in duration-200"
+                    x-transition:leave-start="opacity-100 translate-y-0"
+                    x-transition:leave-end="opacity-0 -translate-y-5"
+                    style="display: none"
+                  >
+                    <div
+                      @click.away="open = false"
+                      @keydown.escape.window="open = false"
+                    >
+                      <a
+                        href="program.html"
+                        class="block w-full py-4 transition duration-200 ease-in-out rounded-xl sm:p-5 hover:bg-purple-25 group"
+                      >
+                        <h5 class="text-lg font-semibold text-purple-600">
+                          Toddler Program
+                        </h5>
+                        <p class="mt-1 text-sm text-purple-800 opacity-90">
+                          Curabitur non nulla sit amet nisl tempu convallis quis
+                          ac lectus.
+                        </p>
+                      </a>
+                      <hr class="my-1 border-purple-200/30 sm:my-2" />
+                      <a
+                        href="program.html"
+                        class="block w-full py-4 transition duration-200 ease-in-out rounded-xl sm:p-5 hover:bg-purple-25 group"
+                      >
+                        <h5 class="text-lg font-semibold text-purple-600">
+                          Preschool
+                        </h5>
+                        <p class="mt-1 text-sm text-purple-800 opacity-90">
+                          Curabitur non nulla sit amet nisl tempu convallis quis
+                          ac lectus.
+                        </p>
+                      </a>
+                      <hr class="my-1 border-purple-200/30 sm:my-2" />
+                      <a
+                        href="program.html"
+                        class="block w-full py-4 transition duration-200 ease-in-out rounded-xl sm:p-5 hover:bg-purple-25 group"
+                      >
+                        <h5 class="text-lg font-semibold text-purple-600">
+                          Kindergarten
+                        </h5>
+                        <p class="mt-1 text-sm text-purple-800 opacity-90">
+                          Curabitur non nulla sit amet nisl tempu convallis quis
+                          ac lectus.
+                        </p>
+                      </a>
+                      <hr class="my-1 border-purple-200/30 sm:my-2" />
+                      <a
+                        href="program.html"
+                        class="block w-full py-4 transition duration-200 ease-in-out rounded-xl sm:p-5 hover:bg-purple-25 group"
+                      >
+                        <h5 class="text-lg font-semibold text-purple-600">
+                          Elementary School
+                        </h5>
+                        <p class="mt-1 text-sm text-purple-800 opacity-90">
+                          Curabitur non nulla sit amet nisl tempu convallis quis
+                          ac lectus.
+                        </p>
+                      </a>
+                      <hr class="my-1 border-purple-200/30 sm:my-2" />
+                      <a
+                        href="program.html"
+                        class="block w-full py-4 transition duration-200 ease-in-out rounded-xl sm:p-5 hover:bg-purple-25 group"
+                      >
+                        <h5 class="text-lg font-semibold text-purple-600">
+                          Summer Camp
+                        </h5>
+                        <p class="mt-1 text-sm text-purple-800 opacity-90">
+                          Curabitur non nulla sit amet nisl tempu convallis quis
+                          ac lectus.
+                        </p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <a href="gallery.html">
+                  <div class="relative p-0.5 group">
+                    <span
+                      class="relative z-10 text-lg font-medium text-purple-700 duration-300 ease-in-out group-hover:text-purple-600"
+                      >Gallery</span
+                    >
+                    <span
+                      class="absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-yellow-400 rounded-lg -left-1 -right-1 group-hover:scale-x-100"
+                    ></span>
+                  </div>
+                </a>
+                <a href="parents.html">
+                  <div class="relative p-0.5 group">
+                    <span
+                      class="relative z-10 text-lg font-medium text-purple-700 duration-300 ease-in-out group-hover:text-purple-600"
+                      >Parents</span
+                    >
+                    <span
+                      class="absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-yellow-400 rounded-lg -left-1 -right-1 group-hover:scale-x-100"
+                    ></span>
+                  </div>
+                </a>
+                <a href="contact.html">
+                  <div class="relative p-0.5 group">
+                    <span
+                      class="relative z-10 text-lg font-medium text-purple-700 duration-300 ease-in-out group-hover:text-purple-600"
+                      >Contact</span
+                    >
+                    <span
+                      class="absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-yellow-400 rounded-lg -left-1 -right-1 group-hover:scale-x-100"
+                    ></span>
+                  </div>
+                </a>
+              </div>
+
+              <!-- Call to action button -->
+              <div class="hidden lg:block">
+                <a
+                  class="text-lg font-semibold text-purple-900 bg-yellow-500 btn hover:bg-yellow-600"
+                  href="contact.html"
+                >
+                  Enroll today
+                </a>
+              </div>
+
+              <!-- Logo on smaller screens: < lg -->
+              <div
+                class="flex-grow-0 flex-shrink-0 block w-48 lg:hidden sm:w-52"
+              >
+                <a href="index.html">
+                  <img
+                    src="./images/bright-logo.png"
+                    alt="Bright"
+                    class="h-auto"
+                  />
+                </a>
+              </div>
+
+              <!-- Mobile menu container -->
+              <div class="block lg:hidden" x-data="{ open: false }">
+                <!-- Hamburger menu button -->
+                <button
+                  class="relative z-50 w-6 h-5 transition duration-500 ease-in-out transform rotate-0 cursor-pointer group focus:outline-none"
+                  @click="open = !open"
+                  aria-label="Toggle Navigation"
+                >
+                  <span
+                    class="absolute block h-1 transition-all duration-300 ease-in-out transform rotate-0 rounded-full opacity-100"
+                    :class="open ? 'top-2 left-1/2 w-0 bg-purple-50 group-hover:bg-white': 'top-0 left-0 w-full bg-purple-900 group-hover:bg-purple-600'"
+                  ></span>
+                  <span
+                    class="absolute left-0 block w-full h-1 transition-all duration-300 ease-in-out transform bg-purple-900 rounded-full opacity-100 top-2 group-hover:bg-purple-600"
+                    :class="open ? 'rotate-45 bg-purple-50 group-hover:bg-white': 'rotate-0 bg-purple-900 group-hover:bg-purple-600'"
+                  ></span>
+                  <span
+                    class="absolute left-0 block w-full h-1 transition-all duration-300 ease-in-out transform bg-purple-900 rounded-full opacity-100 top-2 group-hover:bg-purple-600"
+                    :class="open ? '-rotate-45 bg-purple-50 group-hover:bg-white': 'rotate-0 bg-purple-900 group-hover:bg-purple-600'"
+                  ></span>
+                  <span
+                    class="absolute block h-1 transition-all duration-300 ease-in-out transform rotate-0 bg-purple-900 rounded-full opacity-100 group-hover:bg-purple-600"
+                    :class="open ? 'top-2 left-1/2 w-0 bg-purple-50 group-hover:bg-white': 'top-4 left-0 w-full bg-purple-900 group-hover:bg-purple-600'"
+                  ></span>
+                </button>
+
+                <!-- Mobile menu -->
+                <div
+                  class="absolute top-0 left-0 z-40 w-screen px-4 py-16 overflow-y-scroll bg-gradient-to-tr from-purple-600 to-purple-600 sm:px-8"
+                  @keydown.escape.window="open = false"
+                  @click.away="mobileMenuOpen = false"
+                  x-show="open"
+                  x-transition:enter="transition ease-out duration-300"
+                  x-transition:enter-start="opacity-0 -translate-y-full"
+                  x-transition:enter-end="opacity-100 translate-y-0"
+                  x-transition:leave="transition ease-in duration-200"
+                  x-transition:leave-start="opacity-100 translate-y-0"
+                  x-transition:leave-end="opacity-0 -translate-y-full"
+                  style="display: none"
+                >
+                  <div
+                    class="flex flex-col items-center justify-center w-full h-full"
+                  >
+                    <!-- Site links -->
+                    <div
+                      class="flex flex-col items-center w-full mx-auto space-y-6 justify-evenly"
+                    >
+                      <a href="index.html">
+                        <div class="relative p-0.5 group">
+                          <span
+                            class="relative z-10 text-2xl font-medium duration-300 ease-in-out text-purple-50 group-hover:text-white"
+                            >Home</span
+                          >
+                          <span
+                            class="absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-yellow-400 rounded-lg -left-1 -right-1 group-hover:scale-x-100"
+                          ></span>
+                        </div>
+                      </a>
+
+                      <a href="about-us.html">
+                        <div class="relative p-0.5 group">
+                          <span
+                            class="relative z-10 text-2xl font-medium duration-300 ease-in-out text-purple-50 group-hover:text-white"
+                            >About</span
+                          >
+                          <span
+                            class="absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-yellow-400 rounded-lg -left-1 -right-1 group-hover:scale-x-100"
+                          ></span>
+                        </div>
+                      </a>
+
+                      <a href="gallery.html">
+                        <div class="relative p-0.5 group">
+                          <span
+                            class="relative z-10 text-2xl font-medium duration-300 ease-in-out text-purple-50 group-hover:text-white"
+                            >Gallery</span
+                          >
+                          <span
+                            class="absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-yellow-400 rounded-lg -left-1 -right-1 group-hover:scale-x-100"
+                          ></span>
+                        </div>
+                      </a>
+
+                      <a href="parents.html">
+                        <div class="relative p-0.5 group">
+                          <span
+                            class="relative z-10 text-2xl font-medium duration-300 ease-in-out text-purple-50 group-hover:text-white"
+                            >Parents</span
+                          >
+                          <span
+                            class="absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-yellow-400 rounded-lg -left-1 -right-1 group-hover:scale-x-100"
+                          ></span>
+                        </div>
+                      </a>
+
+                      <a href="contact.html">
+                        <div class="relative p-0.5 group">
+                          <span
+                            class="relative z-10 text-2xl font-medium duration-300 ease-in-out text-purple-50 group-hover:text-white"
+                            >Contact</span
+                          >
+                          <span
+                            class="absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-yellow-400 rounded-lg -left-1 -right-1 group-hover:scale-x-100"
+                          ></span>
+                        </div>
+                      </a>
+
+                      <!-- CTA button -->
+                      <a
+                        class="relative inline-flex items-center justify-center px-8 py-4 text-lg font-semibold leading-normal text-center text-purple-900 duration-300 ease-in-out bg-yellow-400 rounded-full"
+                        href="#0"
+                      >
+                        Enroll today
+                      </a>
+                    </div>
+
+                    <hr
+                      class="w-full my-8 border-purple-200 sm:my-10 border-opacity-30"
+                    />
+
+                    <!-- Programs links -->
+                    <div class="w-full max-w-md mx-auto">
+                      <p
+                        class="text-lg font-semibold tracking-wider text-center text-purple-200 uppercase sm:text-left"
+                      >
+                        Programs
+                      </p>
+                      <div
+                        class="grid gap-4 mt-4 justify-items-center sm:justify-items-start sm:grid-cols-2 sm:gap-x-8"
+                      >
+                        <a href="program.html">
+                          <div class="relative p-0.5 group">
+                            <span
+                              class="relative z-10 text-xl font-medium duration-300 ease-in-out text-purple-50 group-hover:text-white"
+                              >Toddler Program</span
+                            >
+                            <span
+                              class="absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-yellow-400 rounded-lg -left-1 -right-1 group-hover:scale-x-100"
+                            ></span>
+                          </div>
+                        </a>
+
+                        <a class="sm:justify-self-end" href="program.html">
+                          <div class="relative p-0.5 group">
+                            <span
+                              class="relative z-10 text-xl font-medium duration-300 ease-in-out text-purple-50 group-hover:text-white"
+                              >Preschool</span
+                            >
+                            <span
+                              class="absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-yellow-400 rounded-lg -left-1 -right-1 group-hover:scale-x-100"
+                            ></span>
+                          </div>
+                        </a>
+
+                        <a href="program.html">
+                          <div class="relative p-0.5 group">
+                            <span
+                              class="relative z-10 text-xl font-medium duration-300 ease-in-out text-purple-50 group-hover:text-white"
+                              >Kindergarten</span
+                            >
+                            <span
+                              class="absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-yellow-400 rounded-lg -left-1 -right-1 group-hover:scale-x-100"
+                            ></span>
+                          </div>
+                        </a>
+
+                        <a class="sm:justify-self-end" href="program.html">
+                          <div class="relative p-0.5 group">
+                            <span
+                              class="relative z-10 text-xl font-medium duration-300 ease-in-out text-purple-50 group-hover:text-white"
+                              >Elementary School</span
+                            >
+                            <span
+                              class="absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-yellow-400 rounded-lg -left-1 -right-1 group-hover:scale-x-100"
+                            ></span>
+                          </div>
+                        </a>
+
+                        <a href="program.html">
+                          <div class="relative p-0.5 group">
+                            <span
+                              class="relative z-10 text-xl font-medium duration-300 ease-in-out text-purple-50 group-hover:text-white"
+                              >Summer Camp</span
+                            >
+                            <span
+                              class="absolute bottom-0 h-1.5 duration-300 ease-in-out origin-bottom transform scale-x-0 bg-yellow-400 rounded-lg -left-1 -right-1 group-hover:scale-x-100"
+                            ></span>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <!-- Hero section -->
+      <section
+        class="relative px-4 py-16 overflow-hidden lg:py-20 sm:px-6 lg:px-8"
+      >
+        <!-- Background decorations -->
+        <img
+          src="images/dots-large-grid.svg"
+          class="absolute right-0 h-auto transform opacity-25 lg:opacity-40 top-12 w-54"
+        />
+        <img
+          src="images/dots-large-grid.svg"
+          class="absolute h-auto transform opacity-40 -left-36 bottom-36 w-54"
+        />
+
+        <!-- Container -->
+        <div
+          class="max-w-xl mx-auto lg:max-w-screen-xl lg:grid lg:grid-cols-12 lg:gap-8"
+        >
+          <!-- Section header text -->
+          <div class="flex flex-col justify-center lg:col-span-5">
+            <div>
+              <span
+                class="inline-block px-4 py-2 font-medium text-purple-700 bg-purple-200 rounded-full shadow-md -rotate-1"
+              >
+                Now enrolling for preschool
+              </span>
+            </div>
+
+            <div class="relative">
+              <h1
+                class="max-w-xl mt-4 text-purple-900 sm:mt-5 h1 lg:max-w-none"
+              >
+                Stay in the loop
+              </h1>
+
+              <!-- Arrow to links -->
+              <img
+                src="images/arrow-right-over.svg"
+                class="absolute hidden transform -top-3 xl:block md:-right-8 w-14 md:w-32 rotate-12"
+                alt=""
+              />
+            </div>
+
+            <p
+              class="max-w-2xl mt-3 text-xl leading-loose text-purple-800 sm:mt-4"
+            >
+              Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum
+              porta. Praesent sapien massa, convallis a pellentesque nec,
+              egestas non nisi.
+            </p>
+
+            <!-- Enroll CTA-->
+            <div class="mt-10 font-semibold lg:mt-12">
+              <p class="text-purple-800">Not enrolled in our school?</p>
+              <a
+                href="#0"
+                class="mt-2 text-lg font-semibold text-purple-900 bg-yellow-500 sm:mt-3 btn-sm hover:bg-yellow-600 group"
+              >
+                Enroll today
+
+                <!-- Tablericon name: arrow-narrow-right -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-6 h-6 ml-3 group-hover:animate-horizontal-bounce"
+                  width="44"
+                  height="44"
+                  viewBox="0 0 24 24"
+                  stroke-width="2"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                  <line x1="15" y1="16" x2="19" y2="12" />
+                  <line x1="15" y1="8" x2="19" y2="12" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Important parent links container -->
+          <div class="relative mt-12 sm:mt-16 lg:mt-0 xl:pl-12 lg:col-span-7">
+            <!-- Important links -->
+            <div
+              class="relative w-full mx-auto sm:grid sm:gap-6 md:max-w-3xl lg:gap-5 lg:max-w-lg sm:grid-cols-4 lg:grid-cols-2 auto-rows-fr"
+            >
+              <!-- Link 1 -->
+              <a
+                href="#0"
+                class="flex flex-col justify-center w-full p-8 duration-300 ease-in-out transform shadow-lg sm:col-span-2 lg:col-span-1 bg-purple-50 rounded-2xl hover:scale-105 group"
+              >
+                <!-- Link description -->
+                <div class="flex-1">
+                  <!-- Tablericon name: messages -->
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-10 h-10 text-purple-700"
+                    width="44"
+                    height="44"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path
+                      d="M21 14l-3 -3h-7a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h9a1 1 0 0 1 1 1v10"
+                    />
+                    <path
+                      d="M14 15v2a1 1 0 0 1 -1 1h-7l-3 3v-10a1 1 0 0 1 1 -1h2"
+                    />
+                  </svg>
+
+                  <p class="mt-4 text-xl font-semibold text-purple-900">
+                    Community
+                  </p>
+                  <p class="mt-2 text-sm text-purple-800">
+                    Join the parent-teacher group chat
+                  </p>
+                </div>
+
+                <div class="flex justify-end w-full mt-6">
+                  <!-- Tablericon name: chevrons-right -->
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6 text-purple-500 duration-300 ease-in-out group-hover:animate-horizontal-bounce hover:text-purple-600"
+                    width="44"
+                    height="44"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <polyline points="7 7 12 12 7 17" />
+                    <polyline points="13 7 18 12 13 17" />
+                  </svg>
+                </div>
+              </a>
+
+              <!-- Link 2 -->
+              <a
+                href="#0"
+                class="flex flex-col justify-center w-full p-8 mt-6 duration-300 ease-in-out bg-yellow-200 shadow-lg rounded-2xl sm:mt-0 sm:col-span-2 lg:col-span-1 lg:translate-y-28 hover:scale-105 group"
+              >
+                <!-- Link description -->
+                <div class="flex-1">
+                  <!-- Tablericon name: list-check -->
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-10 h-10 text-purple-700"
+                    width="44"
+                    height="44"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M3.5 5.5l1.5 1.5l2.5 -2.5" />
+                    <path d="M3.5 11.5l1.5 1.5l2.5 -2.5" />
+                    <path d="M3.5 17.5l1.5 1.5l2.5 -2.5" />
+                    <line x1="11" y1="6" x2="20" y2="6" />
+                    <line x1="11" y1="12" x2="20" y2="12" />
+                    <line x1="11" y1="18" x2="20" y2="18" />
+                  </svg>
+
+                  <p class="mt-4 text-xl font-semibold text-purple-900">
+                    Child Care Checklist
+                  </p>
+                  <p class="mt-2 text-sm text-purple-800">
+                    Confidently choose the best program for your child
+                  </p>
+                </div>
+
+                <div class="flex justify-end w-full mt-6">
+                  <!-- Tablericon name: chevrons-right -->
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6 text-purple-500 duration-300 ease-in-out group-hover:animate-horizontal-bounce hover:text-purple-600"
+                    width="44"
+                    height="44"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <polyline points="7 7 12 12 7 17" />
+                    <polyline points="13 7 18 12 13 17" />
+                  </svg>
+                </div>
+              </a>
+
+              <!-- Link 3 -->
+              <a
+                href="#0"
+                class="flex flex-col justify-center w-full p-8 mt-6 duration-300 ease-in-out shadow-lg bg-rose-50 sm:col-span-2 sm:mt-0 lg:col-span-1 rounded-2xl hover:scale-105 group"
+              >
+                <!-- Link description -->
+                <div class="flex-1">
+                  <!-- Tablericon name: meat -->
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-10 h-10 text-purple-700"
+                    width="44"
+                    height="44"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path
+                      d="M13.62 8.382l1.966 -1.967a2 2 0 1 1 3.414 -1.415a2 2 0 1 1 -1.413 3.414l-1.82 1.821"
+                    />
+                    <ellipse
+                      transform="rotate(45 8.025 16.475)"
+                      cx="8.025"
+                      cy="16.475"
+                      rx="7"
+                      ry="3"
+                    />
+                    <path d="M7.5 16l1 1" />
+                    <path
+                      d="M12.975 21.425c3.905 -3.906 4.855 -9.288 2.121 -12.021c-2.733 -2.734 -8.115 -1.784 -12.02 2.121"
+                    />
+                  </svg>
+
+                  <p class="mt-4 text-xl font-semibold text-purple-900">
+                    Meal Program
+                  </p>
+                  <p class="mt-2 text-sm text-purple-800">
+                    Learn about our healthy meal program
+                  </p>
+                </div>
+
+                <div class="flex justify-end w-full mt-6">
+                  <!-- Tablericon name: chevrons-right -->
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6 text-purple-500 duration-300 ease-in-out group-hover:animate-horizontal-bounce hover:text-purple-600"
+                    width="44"
+                    height="44"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <polyline points="7 7 12 12 7 17" />
+                    <polyline points="13 7 18 12 13 17" />
+                  </svg>
+                </div>
+              </a>
+
+              <!-- Link 4 -->
+              <a
+                href="#0"
+                class="flex flex-col justify-center w-full p-8 mt-6 duration-300 ease-in-out shadow-lg sm:mt-0 lg:col-start-auto sm:col-span-2 lg:col-span-1 lg:translate-y-28 bg-teal-50 rounded-2xl hover:scale-105 group"
+              >
+                <!-- Link description -->
+                <div class="flex-1">
+                  <!-- Tablericon name: virus -->
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-10 h-10 text-purple-700"
+                    width="44"
+                    height="44"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <circle cx="12" cy="12" r="5" />
+                    <path d="M12 7v-4m-1 0h2" />
+                    <path d="M12 7v-4m-1 0h2" transform="rotate(45 12 12)" />
+                    <path d="M12 7v-4m-1 0h2" transform="rotate(90 12 12)" />
+                    <path d="M12 7v-4m-1 0h2" transform="rotate(135 12 12)" />
+                    <path d="M12 7v-4m-1 0h2" transform="rotate(180 12 12)" />
+                    <path d="M12 7v-4m-1 0h2" transform="rotate(225 12 12)" />
+                    <path d="M12 7v-4m-1 0h2" transform="rotate(270 12 12)" />
+                    <path d="M12 7v-4m-1 0h2" transform="rotate(315 12 12)" />
+                  </svg>
+
+                  <p class="mt-4 text-xl font-semibold text-purple-900">
+                    Covid Response
+                  </p>
+                  <p class="mt-2 text-sm text-purple-800">
+                    Learn what we're doing to keep your child safe
+                  </p>
+                </div>
+
+                <div class="flex justify-end w-full mt-6">
+                  <!-- Tablericon name: chevrons-right -->
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6 text-purple-500 duration-300 ease-in-out group-hover:animate-horizontal-bounce hover:text-purple-600"
+                    width="44"
+                    height="44"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <polyline points="7 7 12 12 7 17" />
+                    <polyline points="13 7 18 12 13 17" />
+                  </svg>
+                </div>
+              </a>
+
+              <!-- Link 5 -->
+              <a
+                href="#0"
+                class="flex flex-col justify-center w-full p-8 mt-6 duration-300 ease-in-out shadow-lg bg-blue-50 sm:mt-0 sm:col-span-2 lg:col-span-1 rounded-2xl sm:col-start-2 hover:scale-105 group"
+              >
+                <!-- Link description -->
+                <div class="flex-1">
+                  <!-- Tablericon name: photo -->
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-10 h-10 text-purple-700"
+                    width="44"
+                    height="44"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <line x1="15" y1="8" x2="15.01" y2="8" />
+                    <rect x="4" y="4" width="16" height="16" rx="3" />
+                    <path d="M4 15l4 -4a3 5 0 0 1 3 0l5 5" />
+                    <path d="M14 14l1 -1a3 5 0 0 1 3 0l2 2" />
+                  </svg>
+
+                  <p class="mt-4 text-xl font-semibold text-purple-900">
+                    School Gallery
+                  </p>
+                  <p class="mt-2 text-sm text-purple-800">
+                    View our school gallery
+                  </p>
+                </div>
+
+                <div class="flex justify-end w-full mt-6">
+                  <!-- Tablericon name: chevrons-right -->
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6 text-purple-500 duration-300 ease-in-out group-hover:animate-horizontal-bounce hover:text-purple-600"
+                    width="44"
+                    height="44"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <polyline points="7 7 12 12 7 17" />
+                    <polyline points="13 7 18 12 13 17" />
+                  </svg>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- School events -->
+    <section class="relative w-full px-4 py-16 sm:py-24 sm:px-6 lg:px-8">
+      <!-- Container -->
+      <div class="max-w-2xl mx-auto lg:max-w-screen-xl">
+        <!-- Section header title and subtext  -->
+        <div>
+          <h2 class="text-purple-900 h2 lg:text-center">Upcoming events</h2>
+          <p
+            class="max-w-2xl mx-auto mt-3 text-xl leading-relaxed text-purple-800 lg:mt-4 lg:text-center"
+          >
+            Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+            dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+            sem.
+          </p>
+        </div>
+
+        <!-- Events -->
+        <div class="mt-12 lg:grid lg:grid-cols-2 lg:gap-6 xl:gap-8 sm:mt-16">
+          <!-- Event 1 -->
+          <div class="grid w-full bg-yellow-200 rounded-2xl sm:grid-cols-12">
+            <!-- Event image -->
+            <div
+              class="h-48 rounded-t-2xl sm:h-full sm:rounded-tr-none sm:rounded-l-2xl sm:col-span-4"
+            >
+              <img
+                src="images/event-01.jpg"
+                class="object-cover object-center w-full h-full rounded-t-2xl sm:rounded-tr-none sm:rounded-l-2xl"
+                alt="Event 01"
+              />
+            </div>
+
+            <!-- Event info -->
+            <div
+              class="flex flex-col justify-center h-full px-6 py-8 sm:col-span-8 sm:py-10 sm:px-8 lg:px-6 xl:px-8"
+            >
+              <div>
+                <div
+                  class="inline-flex items-center justify-center px-3.5 py-0.5 text-sm -rotate-1 bg-purple-200 text-purple-700 font-medium leading-6 align-top rounded-xl"
+                >
+                  Aug. 14, 2021
+                </div>
+              </div>
+              <h4
+                class="mt-4 text-2xl font-bold text-purple-900 xl:text-3xl lg:text-2xl sm:text-3xl lg:leading-tight xl:leading-tight"
+              >
+                Graduation Ceremony
+              </h4>
+              <p class="mt-1 text-purple-800 lg:mt-2">
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur non nulla sit amet nisl tempus convallis quis ac
+                lectus.
+              </p>
+            </div>
+          </div>
+
+          <!-- Event 2 -->
+          <div
+            class="grid w-full mt-8 lg:mt-0 rounded-2xl bg-purple-25 sm:grid-cols-12"
+          >
+            <!-- Event info -->
+            <div
+              class="flex flex-col justify-center order-2 h-full px-6 py-8 sm:order-1 sm:col-span-8 sm:py-10 sm:px-8 lg:px-6 xl:px-8"
+            >
+              <div>
+                <div
+                  class="inline-flex items-center justify-center px-3.5 py-0.5 text-sm -rotate-1 bg-purple-200 text-purple-700 font-medium leading-6 align-top rounded-xl"
+                >
+                  Jun. 7 - 11, 2021
+                </div>
+              </div>
+              <h4
+                class="mt-4 text-2xl font-bold text-purple-900 xl:text-3xl lg:text-2xl sm:text-3xl lg:leading-tight xl:leading-tight"
+              >
+                Parent Conferences
+              </h4>
+              <p class="mt-1 text-purple-800 lg:mt-2">
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur non nulla sit amet nisl tempus convallis quis ac
+                lectus.
+              </p>
+            </div>
+
+            <!-- Event image -->
+            <div
+              class="order-1 h-48 sm:order-2 rounded-t-2xl sm:h-full sm:rounded-tl-none sm:rounded-r-2xl sm:col-span-4"
+            >
+              <img
+                src="images/event-02.jpg"
+                class="object-cover object-center w-full h-full rounded-t-2xl sm:rounded-tl-none sm:rounded-r-2xl"
+                alt="Event 02"
+              />
+            </div>
+          </div>
+
+          <!-- Event 3 -->
+          <div
+            class="grid w-full mt-8 lg:mt-0 rounded-2xl bg-rose-50 sm:grid-cols-12"
+          >
+            <!-- Event image -->
+            <div
+              class="h-48 rounded-t-2xl sm:h-full sm:rounded-tr-none sm:rounded-l-2xl sm:col-span-4"
+            >
+              <img
+                src="images/event-03.jpg"
+                class="object-cover object-center w-full h-full rounded-t-2xl sm:rounded-tr-none sm:rounded-l-2xl"
+                alt="Event 03"
+              />
+            </div>
+
+            <!-- Event info -->
+            <div
+              class="flex flex-col justify-center h-full px-6 py-8 sm:col-span-8 sm:py-10 sm:px-8 lg:px-6 xl:px-8"
+            >
+              <div>
+                <div
+                  class="inline-flex items-center justify-center px-3.5 py-0.5 text-sm -rotate-1 bg-purple-200 text-purple-700 font-medium leading-6 align-top rounded-xl"
+                >
+                  Jun. 21 - Aug. 13, 2021
+                </div>
+              </div>
+              <h4
+                class="mt-4 text-2xl font-bold text-purple-900 xl:text-3xl lg:text-2xl sm:text-3xl lg:leading-tight xl:leading-tight"
+              >
+                Summer Camp
+              </h4>
+              <p class="mt-1 text-purple-800 lg:mt-2">
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur non nulla sit amet nisl tempus convallis quis ac
+                lectus.
+              </p>
+            </div>
+          </div>
+
+          <!-- Event 4 -->
+          <div
+            class="grid w-full mt-8 lg:mt-0 rounded-2xl bg-teal-50 sm:grid-cols-12"
+          >
+            <!-- Event info -->
+            <div
+              class="flex flex-col justify-center order-2 h-full px-6 py-8 sm:order-1 sm:col-span-8 sm:py-10 sm:px-8 lg:px-6 xl:px-8"
+            >
+              <div>
+                <div
+                  class="inline-flex items-center justify-center px-3.5 py-0.5 text-sm -rotate-1 bg-purple-200 text-purple-700 font-medium leading-6 align-top rounded-xl"
+                >
+                  Aug. 23, 2021
+                </div>
+              </div>
+              <h4
+                class="mt-4 text-2xl font-bold text-purple-900 xl:text-3xl lg:text-2xl sm:text-3xl lg:leading-tight xl:leading-tight"
+              >
+                New School Year
+              </h4>
+              <p class="mt-1 text-purple-800 lg:mt-2">
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur non nulla sit amet nisl tempus convallis quis ac
+                lectus.
+              </p>
+            </div>
+
+            <!-- Event image -->
+            <div
+              class="order-1 h-48 sm:order-2 rounded-t-2xl sm:h-full sm:rounded-tl-none sm:rounded-r-2xl sm:col-span-4"
+            >
+              <img
+                src="images/event-04.jpg"
+                class="object-cover object-center w-full h-full rounded-t-2xl sm:rounded-tl-none sm:rounded-r-2xl"
+                alt="Event 04"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter section -->
+    <section class="relative py-16 bg-purple-600 sm:py-20 lg:py-24">
+      <!-- Background decoration -->
+      <img
+        src="images/dots-chaos.svg"
+        class="absolute bottom-0 right-0 h-auto transform w-72"
+        alt=""
+      />
+
+      <!-- Content container -->
+      <div
+        class="relative grid gap-12 px-4 mx-auto lg:grid-cols-12 lg:max-w-screen-xl sm:px-6 lg:px-8"
+      >
+        <div
+          class="flex flex-col items-center justify-center max-w-xl mx-auto lg:col-span-5 lg:items-start lg:mx-0"
+        >
+          <h2 class="text-center text-white h2 lg:text-left">
+            Latest from the newsletter
+          </h2>
+          <div class="relative">
+            <p
+              class="max-w-lg mt-3 text-lg leading-relaxed text-center lg:text-xl lg:mt-4 text-purple-50 lg:text-left"
+            >
+              Don't miss out on your child's education. We send information on
+              important events and dates to our parents once a month. Sign up
+              below!
+            </p>
+
+            <!-- Arrow to newsletter -->
+            <img
+              src="images/arrow-down.svg"
+              class="absolute hidden sm:block lg:hidden 2xl:block -left-14 md:-left-24 top-1/2 w-14 md:w-20"
+              alt=""
+            />
+          </div>
+
+          <!-- Newsletter signup section -->
+          <div class="flex items-center mt-8">
+            <div class="relative w-full max-w-xl rounded-full h-14">
+              <!-- Newsletter signup form -->
+              <form>
+                <div
+                  class="absolute inset-y-0 left-0 flex items-center pl-4 pointer-events-none"
+                >
+                  <!-- Heroicon name: solid/mail -->
+                  <svg
+                    class="w-6 h-6 text-purple-500"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                    />
+                  </svg>
+                </div>
+
+                <input
+                  type="email"
+                  class="text-purple-700 h-14 w-full pl-12 pr-24 py-3.5 border-0 bg-purple-25 border-transparent rounded-full leading-5 duration-300 placeholder-purple-700 focus:bg-white focus:outline-none focus:ring-2 focus:ring-purple-500"
+                  required
+                  placeholder="Signup to our parent newsletter"
+                  ,
+                  autocomplete="email"
+                />
+
+                <button
+                  type="submit"
+                  class="inline-flex items-center h-11 absolute right-1.5 top-1.5 outline-none bg-yellow-400 text-purple-900 hover:bg-yellow-600 py-2 px-4 md:px-6 rounded-full text-sm font-medium duration-300 ease-in-out focus:outline-none"
+                >
+                  Subscribe
+                </button>
+              </form>
+
+              <p
+                class="pl-2 mt-2.5 text-sm text-purple-50 text-center lg:text-left"
+              >
+                Your privacy is important to us. We promise not to send you
+                spam!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Latest newsletters -->
+        <div
+          class="grid max-w-3xl gap-6 mx-auto mt-12 lg:mt-0 lg:mx-0 lg:pl-12 lg:col-span-7 sm:grid-cols-2 sm:gap-5 md:gap-8"
+        >
+          <!-- Issue 1 -->
+          <a
+            href="#0"
+            class="flex flex-col p-6 transition duration-300 ease-in-out border border-purple-500 rounded-md sm:p-7 group hover:scale-105 hover:shadow-lg hover:bg-purple-500 hover:border-transparent"
+          >
+            <div class="flex-1">
+              <h3 class="text-lg font-bold text-white">July</h3>
+              <p class="mt-3 text-purple-50">
+                Praesent sapien massa, convallis a pellentesque nec egestas.
+              </p>
+            </div>
+            <div>
+              <span
+                class="mt-6 rounded-full text-sm font-medium text-purple-600 py-1.5 px-5 inline-flex justify-center items-center bg-purple-100 duration-300 ease-in-out group-hover:text-white group-hover:bg-white/30"
+              >
+                Read newsletter
+
+                <!-- Heroicon name: chevron-right -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-4 h-4 ml-2 group-hover:animate-horizontal-bounce"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+              </span>
+            </div>
+          </a>
+
+          <!-- Issue 2 -->
+          <a
+            href="#0"
+            class="flex flex-col p-6 transition duration-300 ease-in-out bg-purple-600 border border-purple-500 rounded-md sm:p-7 group hover:scale-105 hover:shadow-lg hover:bg-purple-500 hover:border-transparent"
+          >
+            <div class="flex-1">
+              <h3 class="text-lg font-bold text-white">June</h3>
+              <p class="mt-3 text-purple-50">
+                Praesent sapien massa, convallis a pellentesque nec egestas.
+              </p>
+            </div>
+
+            <div>
+              <span
+                class="mt-6 rounded-full text-sm font-medium text-purple-600 py-1.5 px-5 inline-flex justify-center items-center bg-purple-100 duration-300 ease-in-out group-hover:text-white group-hover:bg-white/30"
+              >
+                Read newsletter
+
+                <!-- Heroicon name: chevron-right -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-4 h-4 ml-2 group-hover:animate-horizontal-bounce"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+              </span>
+            </div>
+          </a>
+
+          <!-- Issue 3 -->
+          <a
+            href="#0"
+            class="flex flex-col p-6 transition duration-300 ease-in-out bg-purple-600 border border-purple-500 rounded-md sm:p-7 group hover:scale-105 hover:shadow-lg hover:bg-purple-500 hover:border-transparent"
+          >
+            <div class="flex-1">
+              <h3 class="text-lg font-bold text-white">May</h3>
+              <p class="mt-3 text-purple-50">
+                Praesent sapien massa, convallis a pellentesque nec egestas.
+              </p>
+            </div>
+
+            <div>
+              <span
+                class="mt-6 rounded-full text-sm font-medium text-purple-600 py-1.5 px-5 inline-flex justify-center items-center bg-purple-100 duration-300 ease-in-out group-hover:text-white group-hover:bg-white/30"
+              >
+                Read newsletter
+
+                <!-- Heroicon name: chevron-right -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-4 h-4 ml-2 group-hover:animate-horizontal-bounce"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+              </span>
+            </div>
+          </a>
+
+          <!-- Issue 4 -->
+          <a
+            href="#0"
+            class="flex flex-col p-6 transition duration-300 ease-in-out bg-purple-600 border border-purple-500 rounded-md sm:p-7 group hover:scale-105 hover:shadow-lg hover:bg-purple-500 hover:border-transparent"
+          >
+            <div class="flex-1">
+              <h3 class="text-lg font-bold text-white">April</h3>
+              <p class="mt-3 text-purple-50">
+                Praesent sapien massa, convallis a pellentesque nec egestas.
+              </p>
+            </div>
+
+            <div>
+              <span
+                class="mt-6 rounded-full text-sm font-medium text-purple-600 py-1.5 px-5 inline-flex justify-center items-center bg-purple-100 duration-300 ease-in-out group-hover:text-white group-hover:bg-white/30"
+              >
+                Read newsletter
+
+                <!-- Heroicon name: chevron-right -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-4 h-4 ml-2 group-hover:animate-horizontal-bounce"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+              </span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to action -->
+    <section class="py-24 bg-white sm:py-32">
+      <!-- Container -->
+      <div class="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
+        <!-- Sunrise image -->
+        <img class="mx-auto w-72" src="images/sunrise.svg" />
+
+        <!-- Header -->
+        <h2 class="max-w-3xl mx-auto mt-6 text-center text-purple-900 h1">
+          <span class="block">Giving your child a</span>
+
+          <!-- Underlined text -->
+          <span class="relative block">
+            <span class="relative">
+              <!-- Underline -->
+              <img
+                class="absolute inset-0 transform translate-y-9 sm:translate-y-11 xl:translate-y-14"
+                src="images/underline-simple-light-purple.svg"
+              />
+              <span class="relative">brighter future</span>
+            </span>
+          </span>
+        </h2>
+
+        <!-- CTA button -->
+        <div class="flex justify-center mt-12 xl:mt-14">
+          <a
+            href="#0"
+            class="text-lg font-semibold text-purple-900 bg-yellow-500 btn hover:bg-yellow-600 group"
+          >
+            Enroll today
+
+            <!-- Tablericon name: arrow-narrow-right -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="w-6 h-6 ml-3 group-hover:animate-horizontal-bounce"
+              width="44"
+              height="44"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <line x1="5" y1="12" x2="19" y2="12" />
+              <line x1="15" y1="16" x2="19" y2="12" />
+              <line x1="15" y1="8" x2="19" y2="12" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      class="px-4 pt-16 space-y-8 bg-yellow-100 divide-y sm:pt-20 sm:px-6 lg:px-8 divide-purple-400/20"
+    >
+      <!-- Top section: columns -->
+      <div
+        class="grid max-w-md mx-auto gap-y-8 sm:gapy-12 sm:gap-x-8 md:gap-x-12 sm:max-w-none lg:max-w-screen-2xl sm:grid-cols-2 lg:grid-cols-11 lg:gap-8 xl:gap-12"
+      >
+        <!-- Column 1 -->
+        <div class="flex flex-col lg:mx-auto lg:col-span-4">
+          <!-- Logo -->
+          <div class="flex items-center">
+            <div class="flex-grow-0 flex-shrink-0 w-60">
+              <a href="index.html">
+                <img src="images/bright-logo.png" alt="Bright" class="h-auto" />
+              </a>
+            </div>
+          </div>
+
+          <!-- Mission statement -->
+          <div class="mt-6 text-lg text-purple-800">
+            Sed porttitor lectus nibh. Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Diam sit amet quam vehicula elementum sed sit.
+          </div>
+
+          <!-- Social links -->
+          <div class="w-full mt-5 lg:mt-6">
+            <div class="flex justify-start space-x-4">
+              <!-- Instagram -->
+              <a
+                class="flex items-center justify-center w-10 h-10 text-white duration-300 ease-in-out bg-purple-500 rounded-full hover:bg-purple-600"
+                href="#0"
+              >
+                <!-- TablerIcon name: brand-instagram -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-5 h-5"
+                  width="44"
+                  height="44"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <rect x="4" y="4" width="16" height="16" rx="4" />
+                  <circle cx="12" cy="12" r="3" />
+                  <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                </svg>
+              </a>
+
+              <!-- Facebook -->
+              <a
+                class="flex items-center justify-center w-10 h-10 text-white duration-300 ease-in-out bg-purple-500 rounded-full hover:bg-purple-600"
+                href="#0"
+              >
+                <!-- TablerIcon name: brand-facebook -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-5 h-5"
+                  width="44"
+                  height="44"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path
+                    d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"
+                  />
+                </svg>
+              </a>
+
+              <!-- Twitter -->
+              <a
+                class="flex items-center justify-center w-10 h-10 text-white transition duration-300 ease-in-out bg-purple-500 rounded-full hover:bg-purple-600"
+                href="#0"
+              >
+                <!-- TablerIcon name: brand-twitter -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="w-5 h-5"
+                  width="44"
+                  height="44"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path
+                    d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Column 2 -->
+        <div class="flex-shrink sm:order-3 lg:order-none lg:col-span-2">
+          <h6 class="relative text-xl font-bold tracking-wide text-purple-900">
+            <span class="relative z-20">Programs</span>
+            <span
+              class="absolute left-0 z-10 w-12 h-1 rounded-lg bg-gradient-to-r from-yellow-400 to-yellow-500 -bottom-1"
+            ></span>
+          </h6>
+
+          <!-- Program links -->
+          <ul class="mt-6 text-lg divide-y divide-purple-400/20">
+            <li
+              class="pb-2 font-medium text-purple-700 duration-300 ease-in-out hover:text-purple-600"
+            >
+              <a href="program.html"> Toddler Program </a>
+            </li>
+            <li
+              class="py-2 font-medium text-purple-700 duration-300 ease-in-out hover:text-purple-600"
+            >
+              <a href="program.html"> Preschool </a>
+            </li>
+            <li
+              class="py-2 font-medium text-purple-700 duration-300 ease-in-out hover:text-purple-600"
+            >
+              <a href="program.html"> Kindergarten </a>
+            </li>
+            <li
+              class="py-2 font-medium text-purple-700 duration-300 ease-in-out hover:text-purple-600"
+            >
+              <a href="program.html"> Elementary School </a>
+            </li>
+            <li
+              class="pt-2 font-medium text-purple-700 duration-300 ease-in-out hover:text-purple-600"
+            >
+              <a href="program.html"> Summer Camp </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Column 3 -->
+        <div class="flex-shrink sm:order-4 lg:order-none lg:col-span-2">
+          <h6 class="relative text-xl font-bold tracking-wide text-purple-900">
+            <span class="relative z-20">Site Links</span>
+            <span
+              class="absolute left-0 z-10 w-12 h-1 rounded-lg bg-gradient-to-r from-yellow-400 to-yellow-500 -bottom-1"
+            ></span>
+          </h6>
+
+          <!-- Site links -->
+          <ul class="mt-6 text-lg divide-y divide-purple-400/20">
+            <li
+              class="pb-2 font-medium text-purple-700 duration-300 ease-in-out hover:text-purple-600"
+            >
+              <a href="index.html"> Home </a>
+            </li>
+            <li
+              class="py-2 font-medium text-purple-700 duration-300 ease-in-out hover:text-purple-600"
+            >
+              <a href="about-us.html"> About us </a>
+            </li>
+            <li
+              class="py-2 font-medium text-purple-700 duration-300 ease-in-out hover:text-purple-600"
+            >
+              <a href="gallery.html"> Gallery </a>
+            </li>
+            <li
+              class="py-2 font-medium text-purple-700 duration-300 ease-in-out hover:text-purple-600"
+            >
+              <a href="parents.html"> Parents </a>
+            </li>
+            <li
+              class="pt-2 font-medium text-purple-700 duration-300 ease-in-out hover:text-purple-600"
+            >
+              <a href="contact.html"> Contact us </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Column 4 -->
+        <div class="sm:order-2 lg:order-none lg:col-span-3 lg:mx-auto">
+          <h6 class="relative text-xl font-bold tracking-wide text-purple-900">
+            <span class="relative z-20">Contact us</span>
+            <span
+              class="absolute left-0 z-10 w-12 h-1 rounded-lg bg-gradient-to-r from-yellow-400 to-yellow-500 -bottom-1"
+            ></span>
+          </h6>
+
+          <!-- Contact information -->
+          <ul class="flex flex-col mt-6 space-y-5">
+            <!-- Address -->
+            <li class="flex flex-shrink max-w-xs">
+              <div>
+                <span
+                  class="flex items-center justify-center bg-yellow-400 rounded-2xl w-11 h-11"
+                >
+                  <!-- TablerIcon name: map-pin -->
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6 text-purple-700"
+                    width="44"
+                    height="44"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <circle cx="12" cy="11" r="3" />
+                    <path
+                      d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <div class="flex-1 mt-0 ml-3 xl:ml-4">
+                <h5
+                  class="flex items-center text-base font-semibold text-purple-900"
+                >
+                  Address
+                </h5>
+                <p
+                  class="mt-0.5 text-sm text-purple-800 leading-relaxed text-opacity-90"
+                >
+                  958 McKinley Avenue Littleton, CO 80120
+                </p>
+              </div>
+            </li>
+
+            <!-- Email -->
+            <li class="flex flex-shrink-0">
+              <div>
+                <span
+                  class="flex items-center justify-center bg-purple-200 rounded-2xl w-11 h-11"
+                >
+                  <!-- TablerIcon name: mail -->
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6 text-purple-700"
+                    width="44"
+                    height="44"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <rect x="3" y="5" width="18" height="14" rx="2" />
+                    <polyline points="3 7 12 13 21 7" />
+                  </svg>
+                </span>
+              </div>
+              <div class="flex-1 ml-3 xl:ml-4">
+                <h5
+                  class="flex items-center text-base font-semibold text-purple-900"
+                >
+                  Email
+                </h5>
+                <p
+                  class="mt-0.5 text-sm text-purple-800 leading-relaxed text-opacity-90"
+                >
+                  hello@bright.com
+                </p>
+              </div>
+            </li>
+
+            <!-- Phone number -->
+            <li class="flex flex-shrink-0">
+              <div>
+                <span
+                  class="flex items-center justify-center rounded-2xl w-11 h-11 bg-rose-200"
+                >
+                  <!-- TablerIcon name: phone -->
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="w-6 h-6 text-purple-700"
+                    width="44"
+                    height="44"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path
+                      d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <div class="flex-1 ml-3 xl:ml-4">
+                <h5
+                  class="flex items-center text-base font-semibold text-purple-900"
+                >
+                  Phone
+                </h5>
+                <p
+                  class="mt-0.5 text-sm text-purple-800 leading-relaxed text-opacity-90"
+                >
+                  +1-202-555-0132
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bottom section -->
+      <div
+        class="flex flex-col justify-between max-w-md py-8 mx-auto sm:flex-row sm:max-w-none lg:max-w-screen-2xl"
+      >
+        <!-- Copyright note -->
+        <span class="text-base text-purple-800/90">
+          © 2023 Bright School. All rights reserved.
+        </span>
+
+        <p class="mt-0.5 flex items-center text-purple-800/90">
+          Made with
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-5 h-5 mx-1"
+            width="44"
+            height="44"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M3 14c.83 .642 2.077 1.017 3.5 1c1.423 .017 2.67 -.358 3.5 -1c.83 -.642 2.077 -1.017 3.5 -1c1.423 -.017 2.67 .358 3.5 1"
+            />
+            <path d="M8 3a2.4 2.4 0 0 0 -1 2a2.4 2.4 0 0 0 1 2" />
+            <path d="M12 3a2.4 2.4 0 0 0 -1 2a2.4 2.4 0 0 0 1 2" />
+            <path d="M3 10h14v5a6 6 0 0 1 -6 6h-2a6 6 0 0 1 -6 -6v-5z" />
+            <path d="M16.746 16.726a3 3 0 1 0 .252 -5.555" />
+          </svg>
+          <span>
+            by
+            <a
+              class="text-purple-700 hover:text-purple-900 hover:underline"
+              href="https://www.tailwindawesome.com/"
+              target="_blank"
+              >Tailwind Awesome</a
+            >
+          </span>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
